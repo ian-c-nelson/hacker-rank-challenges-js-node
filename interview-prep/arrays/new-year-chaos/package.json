@@ -1,0 +1,14 @@
+{
+  "name": "new-year-chaos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env OUTPUT_PATH=./output.txt node ./index.js < ./input.txt"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "cross-env": "^5.2.0",
+    "dotenv": "^6.2.0"
+  }
+}
